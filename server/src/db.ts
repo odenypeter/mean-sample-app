@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 
-const MONGO_DB_URI =
-  'mongodb://pevy:PevyGrid2020@localhost:27017/pevy_grid_db?authSource=admin'
+const MONGO_DB_URI ='mongodb://{username}:{password}@{host}:{port}/{db}?authSource={authentication DB}}'
 
   // establish database connection
 mongoose
